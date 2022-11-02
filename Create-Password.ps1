@@ -39,8 +39,6 @@ function Create-Password {
 
     $PWOutput = $null
 
-    #$UseCombination.split(',').count
-
     $UseCombination.split(',') | ForEach-Object { 
 
         if($_ -eq 'nn'){
